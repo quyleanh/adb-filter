@@ -1,0 +1,68 @@
+mazii.net##app-notify
+mazii.net##app-introduction
+mazii.net##.AnyMind_home_right
+mazii.net##.bg-white.download-app
+mazii.net##app-footer
+mazii.net##.show-ads
+
+
+deepl.com##aside[aria-labelledby="app-ad-banner-heading"]
+deepl.com##aside[aria-labelledby="customer-quotes-heading"]
+deepl.com##div[class*="write_ad_dialog--"]
+deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
+deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
+deepl.com###lmt_pro_ad_container
+deepl.com##+js(aeld, copy)
+deepl.com###iosAppAdPortal
+deepl.com###callout-subtitle-chromeExtensionPromo
+deepl.com###dl_app_banner_popup
+deepl.com##.bg-deepl-blue
+||s.deepl.com^
+||deepl.com^$removeparam=cta
+
+wikipedia.org##.vector-sitenotice-container
+
+||ogs.google.com/u/*/widget/callout/sid$subdocument
+
+open.spotify.com##div.ReactModalPortal
+
+substack.com##.subscription-widget
+substack.com#$#.default-intro-popup { display: none !important; }
+substack.com#$#html.show-intro-popup { overflow: visible !important; }
+substack.com#$#html.show-intro-popup > body { overflow: visible !important; }
+substack.com##div[class*="-SubscribePrompt-module_"]
+substack.com##div[class^="subscribe-"]
+substack.com##.post-end-cta-full
+
+! Hide install Google Chrome annoying popups
+||ogs.google.com/widget/callout
+
+! Hide login with Google annoying popups
+accounts.google.com/gsi/iframe
+
+! Hide LinkedIn feed only in the feed pages
+www.linkedin.com##.scaffold-finite-scroll--infinite.scaffold-finite-scroll:matches-path(/feed)
+www.linkedin.com##.feed-sort-toggle-dsa__wrapper:matches-path(/feed)
+
+! Hide LinkedIn recommended
+www.linkedin.com##.scaffold-layout__aside[aria-label="Add to your feed"]
+
+! Hide LinkedIn premium sponsor ads
+www.linkedin.com##.premium-upsell-link--extra-long
+
+! Hide LinkedIn messages overlay
+www.linkedin.com##.msg-overlay-container-reflow.msg-overlay-container
+www.linkedin.com##.mb2.artdeco-card.community-panel
+
+! Hide LinkedIn "Try Premium for free" in My Network
+www.linkedin.com##.relative.flex-column.display-flex.align-items-left.mb4.artdeco-card.p4.mn-sales-navigator-upsell
+www.linkedin.com##.artdeco-card.full-width.mn-abi-form__container
+
+! Hide LinkedIn "For Business" Top Bar
+www.linkedin.com##.flex-column.display-flex.align-items-left.mt5.p4.artdeco-card
+www.linkedin.com##.global-nav__app-launcher-trigger.pl3.global-nav__primary-item--divider.global-nav__primary-link
+
+! Hide LinkedIn "Try Premium for free" both in specific job and Jobs search
+www.linkedin.com##.premium-accent-bar.ember-view.artdeco-card
+www.linkedin.com##.ph5.pv4.job-details-how-you-match-card__upsell
+www.linkedin.com##.flex-column.display-flex.align-items-left.p4.justify-center.artdeco-card
