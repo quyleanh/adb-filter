@@ -1,21 +1,21 @@
 // ==UserScript==
 // @name            Facebook Unseen
-// @author          noname
+// @author          -
 // @namespace       http://www.example.url/to/your-web-site/
 // @description     Put a good description in here
 // @license         Creative Commons Attribution License
-// @version            0.1
-// @include         http*://facebook.com/*
-// @include         http*://*.facebook.com/*
-// @include         http*://*.messenger.com/*
-// @include         http*://messenger.com/*
+// @version            0.2
+// @match         http*://facebook.com/*
+// @match         http*://*.facebook.com/*
+// @match         http*://*.messenger.com/*
+// @match         http*://messenger.com/*
 // @grant        unsafeWindow
 // @run-at           document-start
 // @released        2006-04-17
 // @updated         2006-04-19
 // @compatible      Greasemonkey
 // ==/UserScript==
-
+ 
 function getCookie(e) {
   const t = `; ${document.cookie}`,
     n = t.split(`; ${e}=`);
