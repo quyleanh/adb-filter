@@ -22,8 +22,6 @@ deepl.com##.bg-deepl-blue
 
 wikipedia.org##.vector-sitenotice-container
 
-||ogs.google.com/u/*/widget/callout/sid$subdocument
-
 open.spotify.com##div.ReactModalPortal
 
 substack.com##.subscription-widget
