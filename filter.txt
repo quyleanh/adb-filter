@@ -1,3 +1,6 @@
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noop.js
+##+js(no-fetch-if, pagead2.googlesyndication.com)
+
 mazii.net##app-notify
 mazii.net##app-introduction
 mazii.net##.AnyMind_home_right
