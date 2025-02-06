@@ -118,3 +118,19 @@ archive.org###donate_banner
 ||ogs.google.com/widget/callout
 google.com##[class$=__middle-slot-promo]
 google.com,google.co.nz##[data-attrid="kc:/local:promotions"]
+
+
+!gocmod.com
+!Làm phiền
+gocmod.com##.downline-line-list > center
+gocmod.com##.wrp-min > center
+file.gocmod.com##:has-text(Hãy nhấn vào quảng cáo)
+!Click download
+gocmod.com##+js(trusted-click-element, .download-btn-group .download-btn .btn.btn-icon.s-button.btn-lg.btn-block)
+file.gocmod.com##+js(trusted-click-element, .download-type form button.btn.btn-secondary.btn-md.radius.w-100.fw-500, ,1000)
+file.gocmod.com##+js(nano-sib)
+file.gocmod.com##+js(trusted-click-element, button.btn.btn-secondary.btn-md.fw-500, ,4000)
+file.gocmod.com##+js(trusted-click-element, .btn.btn-secondary.btn-md.fw-500, ,2000)
+!Chặn popup shopee
+file.gocmod.com##^script:has-text(shopee)
+||cdn.statically.io^$domain=gocmod.com
