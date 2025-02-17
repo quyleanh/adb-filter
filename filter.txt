@@ -134,3 +134,8 @@ file.gocmod.com##+js(trusted-click-element, .btn.btn-secondary.btn-md.fw-500, ,2
 !Chặn popup shopee
 file.gocmod.com##^script:has-text(shopee)
 ||cdn.statically.io^$domain=gocmod.com
+
+
+! Feb 15, 2025 https://vnexpress.net
+vnexpress.net##.js_installvneapp.installvneapp--small.installvneapp
+vnexpress.net###newsletters
