@@ -23,7 +23,6 @@ deepl.com##.bg-deepl-blue
 ||s.deepl.com^
 ||deepl.com^$removeparam=cta
 
-wikipedia.org##.vector-sitenotice-container
 
 open.spotify.com##div.ReactModalPortal
 
@@ -111,6 +110,7 @@ twitter.com,x.com##[data-testid=tweet]:has(img[src*=emoji]) [lang=qme]:has-text(
 wikipedia.org,m.wikipedia.org###frb-inline
 wikipedia.org,m.wikipedia.org###frb-nag
 wikipedia.org,m.wikipedia.org###siteNotice
+wikipedia.org##.vector-sitenotice-container
 
 archive.org###donate_banner
 
