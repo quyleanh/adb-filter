@@ -139,3 +139,26 @@ file.gocmod.com##^script:has-text(shopee)
 ! Feb 15, 2025 https://vnexpress.net
 vnexpress.net##.js_installvneapp.installvneapp--small.installvneapp
 vnexpress.net###newsletters
+
+||youtube.com/annotations_
+youtube.com##.ytp-ce-element
+
+! 2023-03-24 https://en.wikipedia.org
+en.wikipedia.org##.vector-sitenotice-container
+
+! 2023-06-01 https://genk.vn
+genk.vn##.kbwc-socials
+genk.vn##.knc-menu-nav
+genk.vn##.clearfix.kns-social
+genk.vn##.bottom-footer
+
+! 2024-07-14 https://www.youtube.com
+www.youtube.com##ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+
+! Dec 15, 2024 https://suumo.jp
+suumo.jp###js-bannerPanel
+
+! Feb 28, 2025 https://www.binance.com
+www.binance.com###credential_picker_container
+
+
